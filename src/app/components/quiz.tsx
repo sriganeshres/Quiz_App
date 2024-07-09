@@ -52,7 +52,7 @@ const Quiz: React.FC<QuizProps> = ({ questions }) => {
   };
 
   return (
-    <div className="h-[80vh] flex flex-col items-center justify-center bg-gray-100 rounded-lg p-4 gap-6">
+    <div className="h-[73vh] flex flex-col items-center justify-center bg-gray-100 rounded-lg p-4 gap-6">
       <div className="w-full max-w-2xl p-6 bg-white rounded-xl shadow-md">
         {showResult ? (
           <Result score={score} total={questions.length} />
